@@ -13,15 +13,15 @@ const Navigation = () => {
       <h1 className=" text-xl text-primary">DoctoDo</h1>
       <ul className="hidden md:flex items-start gap-5 font-medium">
         <NavLink to="/">
-          <li className="py-1">HOME</li>
+          <li className="py-1">ACCUEIL</li>
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
         </NavLink>
         <NavLink to="/doctors">
-          <li className="py-1">All DOCTORS</li>
+          <li className="py-1">DOCTORS</li>
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
         </NavLink>
         <NavLink to="/about">
-          <li className="py-1">ABOUT</li>
+          <li className="py-1">A PROPOS</li>
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
         </NavLink>
         <NavLink to="/contact">
@@ -36,17 +36,30 @@ const Navigation = () => {
             <img className="w-2.5" src={assets.dropdown_icon} alt="" />
             <div className="absolute top-0 right-0 pt-14 text-base font-medium text-gray-600 z-20 hidden group-hover:block">
               <div className="min-w-48 bg-stone-100 rounded-flex flex-col gap-4 p-4">
-                <p className="hover:text-black cursor-pointer">My profile</p>
-                <p className="hover:text-black cursor-pointer">
-                  My Appointments
+                <p
+                  onClick={() => navigate("myprofil")}
+                  className="hover:text-black cursor-pointer"
+                >
+                  Mon profil
                 </p>
-                <p className="hover:text-black cursor-pointer">Logout</p>
+                <p
+                  onClick={() => navigate("myappointments")}
+                  className="hover:text-black cursor-pointer"
+                >
+                  Mes rendez vous
+                </p>
+                <p
+                  onClick={() => setToken(false)}
+                  className="hover:text-black cursor-pointer"
+                >
+                  Deconnexion
+                </p>
               </div>
             </div>
           </div>
         ) : (
           <button
-            onClick={() => navigate("/login")}
+            onClick={() => navigate("login")}
             className="bg-primary text-white px-8 py-3 rounded-full font-light hidden md:block"
           >
             Create account
