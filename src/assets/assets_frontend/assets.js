@@ -134,13 +134,13 @@ export const doctors = [
   },
   {
     _id: "doc4",
-    name: "Dr Richard James",
+    name: "Dr Richard Delafosse",
     image: doc4,
     speciality: "Médecin généraliste",
     degree: "MBBS",
     experience: "4 ans d'expérience",
     about:
-      "Le Dr James s'engage pleinement à fournir des soins médicaux complets, en mettant l'accent sur la médecine préventive, le diagnostic précoce et des stratégies de traitement efficaces.",
+      "Le Dr Delafosse s'engage pleinement à fournir des soins médicaux complets, en mettant l'accent sur la médecine préventive, le diagnostic précoce et des stratégies de traitement efficaces.",
     fees: 50,
     address: {
       line1: "17 rue de la Plate",
@@ -164,7 +164,7 @@ export const doctors = [
   },
   {
     _id: "doc6",
-    name: "Dr. Christopher Fonseca",
+    name: "Dr. Rubben Fonseca",
     image: doc6,
     speciality: "Neurologue",
     degree: "MBBS",
@@ -209,7 +209,7 @@ export const doctors = [
   },
   {
     _id: "doc9",
-    name: "Dr. Ava Michel",
+    name: "Dr. Alexia Michel",
     image: doc9,
     speciality: "Dermatologue",
     degree: "MBBS",

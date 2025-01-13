@@ -20,13 +20,15 @@ const TopDoctors = () => {
                 <p className="w-2 h-2 bg-green-500 rounded-full"></p>
                 <p>Disponible</p>
               </div>
-              <p>{item.name}</p>
-              <p>{item.speciality}</p>
+              <p className="text-gray-900 text-lg font-medium">{item.name}</p>
+              <p className="text-gray-600 text-sm">{item.speciality}</p>
             </div>
           </div>
         ))}
       </div>
-      <button>Plus</button>
+      <button className="bg-blue-50 text-gray-600 px-12 py-3 rounded-full mt-10">
+        Plus
+      </button>
     </div>
   );
 };
