@@ -14,7 +14,7 @@ const TopDoctors = () => {
         Parcourez de facon simple notre liste de médecins
       </p>
       <div className="w-full grid grid-cols-auto gap-4 pt-5 gap-y-6 px-3 sm:px-0">
-        {doctors.slice(0, 10).map((item, index) => (
+        {doctors.slice(0, 8).map((item, index) => (
           <div
             onClick={() => navigate(`/appointment/${item._id}`)}
             className="border border-blue-200 rounded-x1 overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all duration-500"

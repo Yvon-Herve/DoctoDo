@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Appointment from "./pages/Appointment";
 import Login from "./pages/Login";
 import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <div className="mx-4 sm:mx-[10%]">
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/appointment/:docId" element={<Appointment />} />
         <Route path="/myprofil" element={<MyProfil />} />
       </Routes>
+      <Footer />
     </div>
   );
 };
