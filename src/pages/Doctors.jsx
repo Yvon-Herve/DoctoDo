@@ -27,33 +27,63 @@ const Doctors = () => {
     <div>
       <p className="text-gray-600">Parcourez les spécialités.</p>
       <div className="flex flex-col sm:flex-row items-start gap-5 mt-5">
-        <div className="flex-col gap-4 text-sm text-gray-600">
+        <div className="flex flex-col gap-4 text-sm text-gray-600">
           <p
+            onClick={() =>
+              speciality === " Médecin généraliste"
+                ? navigate("/doctors")
+                : navigate("/doctors/Médecin généraliste")
+            }
             className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer`}
           >
             Médecin généraliste
           </p>
           <p
+            onClick={() =>
+              speciality === "Gynécologue"
+                ? navigate("/doctors")
+                : navigate("/doctors/Gynécologue")
+            }
             className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer`}
           >
             Gynécologue
           </p>
           <p
+            onClick={() =>
+              speciality === "Dermatologue"
+                ? navigate("/doctors")
+                : navigate("/doctors/Dermatologue")
+            }
             className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer`}
           >
             Dermatologue
           </p>
           <p
+            onClick={() =>
+              speciality === "Neurologue"
+                ? navigate("/doctors")
+                : navigate("/doctors/Neurologue")
+            }
             className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer`}
           >
             Neurologue
           </p>
           <p
+            onClick={() =>
+              speciality === "Pédiatre"
+                ? navigate("/doctors")
+                : navigate("/doctors/Pédiatre")
+            }
             className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer`}
           >
             Pédiatre
           </p>
           <p
+            onClick={() =>
+              speciality === " Gastro-entérologue"
+                ? navigate("/doctors")
+                : navigate("/doctors/Gastro-entérologue")
+            }
             className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer`}
           >
             Gastro-entérologue
