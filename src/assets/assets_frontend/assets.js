@@ -91,7 +91,7 @@ export const doctors = [
     _id: "doc1",
     name: "Dr Karidja Sanghare",
     image: doc1,
-    speciality: "Pédiatre",
+    speciality: "Neurologue",
     degree: "MBBS",
     experience: "2 ans d'expérience",
     about:
@@ -241,7 +241,7 @@ export const doctors = [
     _id: "doc11",
     name: "Dr. Zoe Kelly",
     image: doc11,
-    speciality: "Neurologue",
+    speciality: "Pédiatres",
     degree: "MBBS",
     experience: "4 ans d'expérience",
     about:
@@ -254,13 +254,13 @@ export const doctors = [
   },
   {
     _id: "doc12",
-    name: "Dr. Patrick Hubert",
+    name: "Dr. Yousseph Attal",
     image: doc12,
-    speciality: "Neurologue",
+    speciality: "Pédiatres",
     degree: "MBBS",
     experience: "4 ans d'expérience",
     about:
-      "Dr Hubert s'engage pleinement à fournir des soins médicaux complets, en mettant l'accent sur la médecine préventive, le diagnostic précoce et des stratégies de traitement efficaces.",
+      "Dr Attal s'engage pleinement à fournir des soins médicaux complets, en mettant l'accent sur la médecine préventive, le diagnostic précoce et des stratégies de traitement efficaces.",
     fees: 50,
     address: {
       line1: "57e rue, Bompastor",
@@ -286,7 +286,7 @@ export const doctors = [
     _id: "doc14",
     name: "Dr. Luc Martinez",
     image: doc14,
-    speciality: "Gynécologue",
+    speciality: "Médecin généraliste",
     degree: "MBBS",
     experience: "3 ans d'expérience",
     about:
@@ -301,7 +301,7 @@ export const doctors = [
     _id: "doc15",
     name: "Dr. Amelia Laubert",
     image: doc15,
-    speciality: "Dermatologue",
+    speciality: "Gastro-entérologue",
     degree: "MBBS",
     experience: "1 an d'expérience",
     about:
