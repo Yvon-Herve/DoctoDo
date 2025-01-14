@@ -254,13 +254,13 @@ export const doctors = [
   },
   {
     _id: "doc12",
-    name: "Dr. Yousseph Attal",
+    name: "Dr. Simon Benssousan",
     image: doc12,
     speciality: "Pédiatres",
     degree: "MBBS",
     experience: "4 ans d'expérience",
     about:
-      "Dr Attal s'engage pleinement à fournir des soins médicaux complets, en mettant l'accent sur la médecine préventive, le diagnostic précoce et des stratégies de traitement efficaces.",
+      "Dr Benssousan s'engage pleinement à fournir des soins médicaux complets, en mettant l'accent sur la médecine préventive, le diagnostic précoce et des stratégies de traitement efficaces.",
     fees: 50,
     address: {
       line1: "57e rue, Bompastor",

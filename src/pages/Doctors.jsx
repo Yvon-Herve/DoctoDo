@@ -25,17 +25,41 @@ const Doctors = () => {
 
   return (
     <div>
-      <p>Parcourez les spécialités.</p>
-      <div>
-        <div>
-          <p>Médecin généraliste</p>
-          <p>Gynécologue</p>
-          <p>Dermatologue</p>
-          <p>Neurologue</p>
-          <p>Pédiatre</p>
-          <p>Gastro-entérologue</p>
+      <p className="text-gray-600">Parcourez les spécialités.</p>
+      <div className="flex flex-col sm:flex-row items-start gap-5 mt-5">
+        <div className="flex-col gap-4 text-sm text-gray-600">
+          <p
+            className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer`}
+          >
+            Médecin généraliste
+          </p>
+          <p
+            className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer`}
+          >
+            Gynécologue
+          </p>
+          <p
+            className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer`}
+          >
+            Dermatologue
+          </p>
+          <p
+            className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer`}
+          >
+            Neurologue
+          </p>
+          <p
+            className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer`}
+          >
+            Pédiatre
+          </p>
+          <p
+            className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer`}
+          >
+            Gastro-entérologue
+          </p>
         </div>
-        <div>
+        <div className="w-full grid grid-cols-auto gap-4 gap-y-6">
           {filterDoc.map((item, index) => (
             <div
               onClick={() => navigate(`/appointment/${item._id}`)}
