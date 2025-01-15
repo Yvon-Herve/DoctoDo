@@ -31,13 +31,23 @@ const Appointment = () => {
             <img src={docInfo.image} alt="" />
           </div>
           {/* Doc info name experience.....  */}
-          <p>
-            {docInfo.name} <img src={assets.verified_icon} alt="" />
-          </p>
           <div>
             <p>
-              {docInfo.degree} -{docInfo.speciality}
+              {docInfo.name} <img src={assets.verified_icon} alt="" />
             </p>
+            <div>
+              <p>
+                {docInfo.degree} -{docInfo.speciality}
+              </p>
+              <button>{docInfo.experience}</button>
+            </div>
+            {/* doctor a propos  */}
+            <div>
+              <p>
+                A propos <img src={assets.info_icon} alt="" />
+              </p>
+              <p>{docInfo.about}</p>
+            </div>
           </div>
         </div>
       </div>
