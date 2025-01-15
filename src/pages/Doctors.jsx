@@ -34,7 +34,11 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Médecin généraliste")
             }
-            className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer`}
+            className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${
+              speciality === "Médecin généraliste"
+                ? "bg-indigo-100 text-black"
+                : ""
+            }`}
           >
             Médecin généraliste
           </p>
@@ -44,7 +48,9 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Gynécologue")
             }
-            className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer`}
+            className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${
+              speciality === "Gynécologue" ? "bg-indigo-100 text-black" : ""
+            }`}
           >
             Gynécologue
           </p>
@@ -54,7 +60,9 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Dermatologue")
             }
-            className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer`}
+            className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${
+              speciality === "Dermatologue" ? "bg-indigo-100 text-black" : ""
+            }`}
           >
             Dermatologue
           </p>
@@ -64,7 +72,9 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Neurologue")
             }
-            className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer`}
+            className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer  ${
+              speciality === "Neurologue" ? "bg-indigo-100 text-black" : ""
+            }`}
           >
             Neurologue
           </p>
@@ -74,7 +84,9 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Pédiatre")
             }
-            className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer`}
+            className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer  ${
+              speciality === "Pédiatre" ? "bg-indigo-100 text-black" : ""
+            }`}
           >
             Pédiatre
           </p>
@@ -84,7 +96,11 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Gastro-entérologue")
             }
-            className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer`}
+            className={`w-[93vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer  ${
+              speciality === "Gastro-entérologue"
+                ? "bg-indigo-100 text-black"
+                : ""
+            }`}
           >
             Gastro-entérologue
           </p>
