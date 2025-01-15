@@ -92,7 +92,7 @@ export const doctors = [
     name: "Dr Karidja Sanghare",
     image: doc1,
     speciality: "Neurologue",
-    degree: "MBBS",
+    degree: "DEDM",
     experience: "2 ans d'expérience",
     about:
       "Dr Sanghare s'engage pleinement à fournir des soins médicaux complets, en mettant l'accent sur la médecine préventive, le diagnostic précoce et des stratégies de traitement efficaces.",
@@ -107,7 +107,7 @@ export const doctors = [
     name: "Dr Emily Larson",
     image: doc2,
     speciality: "Gynécologue",
-    degree: "MBBS",
+    degree: "DEDM",
     experience: "3 ans d'expérience",
     about:
       "Dr Larson s'engage pleinement à fournir des soins médicaux complets, en mettant l'accent sur la médecine préventive, le diagnostic précoce et des stratégies de traitement efficaces.",
@@ -122,7 +122,7 @@ export const doctors = [
     name: "Dr Joseph Lomobushi",
     image: doc3,
     speciality: "Dermatologue",
-    degree: "MBBS",
+    degree: "DEDM",
     experience: "1 an d'expérience",
     about:
       "Dr Lomobushi s'engage pleinement à fournir des soins médicaux complets, en mettant l'accent sur la médecine préventive, le diagnostic précoce et des stratégies de traitement efficaces.",
@@ -137,7 +137,7 @@ export const doctors = [
     name: "Dr Richard Delafosse",
     image: doc4,
     speciality: "Médecin généraliste",
-    degree: "MBBS",
+    degree: "DEDM",
     experience: "4 ans d'expérience",
     about:
       "Le Dr Delafosse s'engage pleinement à fournir des soins médicaux complets, en mettant l'accent sur la médecine préventive, le diagnostic précoce et des stratégies de traitement efficaces.",
@@ -152,7 +152,7 @@ export const doctors = [
     name: "Dr Jennifer Garcia",
     image: doc5,
     speciality: "Neurologue",
-    degree: "MBBS",
+    degree: "DEDM",
     experience: "4 ans d'expérience",
     about:
       "Dr Garcia s'engage pleinement à fournir des soins médicaux complets, en mettant l'accent sur la médecine préventive, le diagnostic précoce et des stratégies de traitement efficaces.",
@@ -167,7 +167,7 @@ export const doctors = [
     name: "Dr. Rubben Fonseca",
     image: doc6,
     speciality: "Neurologue",
-    degree: "MBBS",
+    degree: "DEDM",
     experience: "4 ans d'expérience",
     about:
       "Dr Williams s'engage pleinement à fournir des soins médicaux complets, en mettant l'accent sur la médecine préventive, le diagnostic précoce et des stratégies de traitement efficaces.",
@@ -182,7 +182,7 @@ export const doctors = [
     name: "Dr. Christopher David",
     image: doc7,
     speciality: "Médecin généraliste",
-    degree: "MBBS",
+    degree: "DEDM",
     experience: "4 ans d'expérience",
     about:
       "Dr David s'engage pleinement à fournir des soins médicaux complets, en mettant l'accent sur la médecine préventive, le diagnostic précoce et des stratégies de traitement efficaces.",
@@ -197,7 +197,7 @@ export const doctors = [
     name: "Dr. Timothee Blanc",
     image: doc8,
     speciality: "Gynécologue",
-    degree: "MBBS",
+    degree: "DEDM",
     experience: "3 ans d'expérience",
     about:
       "Dr Blanc s'engage pleinement à fournir des soins médicaux complets, en mettant l'accent sur la médecine préventive, le diagnostic précoce et des stratégies de traitement efficaces.",
@@ -212,7 +212,7 @@ export const doctors = [
     name: "Dr. Alexia Michel",
     image: doc9,
     speciality: "Dermatologue",
-    degree: "MBBS",
+    degree: "DEDM",
     experience: "1 an d'expérience",
     about:
       "Dr Michel s'engage pleinement à fournir des soins médicaux complets, en mettant l'accent sur la médecine préventive, le diagnostic précoce et des stratégies de traitement efficaces.",
@@ -227,7 +227,7 @@ export const doctors = [
     name: "Dr. Jeffrey Carosin",
     image: doc10,
     speciality: "Pédiatre",
-    degree: "MBBS",
+    degree: "DEDM",
     experience: "2 ans d'expérience",
     about:
       "Dr Carosin s'engage pleinement à fournir des soins médicaux complets, en mettant l'accent sur la médecine préventive, le diagnostic précoce et des stratégies de traitement efficaces.",
@@ -242,7 +242,7 @@ export const doctors = [
     name: "Dr. Zoe Kelly",
     image: doc11,
     speciality: "Pédiatres",
-    degree: "MBBS",
+    degree: "DEDM",
     experience: "4 ans d'expérience",
     about:
       "Dr Kelly s'engage pleinement à fournir des soins médicaux complets, en mettant l'accent sur la médecine préventive, le diagnostic précoce et des stratégies de traitement efficaces.",
@@ -257,7 +257,7 @@ export const doctors = [
     name: "Dr. Simon Benssousan",
     image: doc12,
     speciality: "Pédiatres",
-    degree: "MBBS",
+    degree: "DEDM",
     experience: "4 ans d'expérience",
     about:
       "Dr Benssousan s'engage pleinement à fournir des soins médicaux complets, en mettant l'accent sur la médecine préventive, le diagnostic précoce et des stratégies de traitement efficaces.",
@@ -272,7 +272,7 @@ export const doctors = [
     name: "Dr. Chloe Martin",
     image: doc13,
     speciality: "Médecin généraliste",
-    degree: "MBBS",
+    degree: "DEDM",
     experience: "4 ans d'expérience",
     about:
       "Dr Martin s'engage pleinement à fournir des soins médicaux complets, en mettant l'accent sur la médecine préventive, le diagnostic précoce et des stratégies de traitement efficaces.",
@@ -287,7 +287,7 @@ export const doctors = [
     name: "Dr. Luc Martinez",
     image: doc14,
     speciality: "Médecin généraliste",
-    degree: "MBBS",
+    degree: "DEDM",
     experience: "3 ans d'expérience",
     about:
       "Dr Martinez s'engage pleinement à fournir des soins médicaux complets, en mettant l'accent sur la médecine préventive, le diagnostic précoce et des stratégies de traitement efficaces.",
@@ -302,7 +302,7 @@ export const doctors = [
     name: "Dr. Amelia Laubert",
     image: doc15,
     speciality: "Gastro-entérologue",
-    degree: "MBBS",
+    degree: "DEDM",
     experience: "1 an d'expérience",
     about:
       "Dr Laubert s'engage pleinement à fournir des soins médicaux complets, en mettant l'accent sur la médecine préventive, le diagnostic précoce et des stratégies de traitement efficaces.",
