@@ -4,9 +4,9 @@ import { assets } from "../assets/assets_frontend/assets";
 const About = () => {
   return (
     <div>
-      <div>
+      <div className="text-center text-2x1 pt-10 text-gray-500">
         <p>
-          A PROPOS <span> DE NOUS </span>
+          A PROPOS <span className="text-gray-700 font-medium"> DE NOUS </span>
         </p>
       </div>
 
@@ -29,8 +29,14 @@ const About = () => {
             gériez des soins continus, DoctoDo est là pour vous accompagner à
             chaque étape du processus.
           </p>
-          <b></b>
-          <p></p>
+          <b>Notre vision</b>
+          <p>
+            Notre vision chez DoctoDo est de créer une expérience de soins de
+            santé transparente pour chaque utilisateur. Notre objectif est de
+            combler le fossé entre les patients et les prestataires de soins de
+            santé, en vous permettant d'accéder plus facilement aux soins dont
+            vous avez besoin, quand vous en avez besoin.
+          </p>
         </div>
       </div>
     </div>
