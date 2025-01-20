@@ -70,6 +70,58 @@ const Navigation = () => {
             Create account
           </button>
         )}
+        <img
+          onClick={() => setShowMenu(true)}
+          className="w-6 md:hidden"
+          src={assets.menu_icon}
+          alt=""
+        />
+        {/* menu format mobile  */}
+        <div
+          className={`${
+            showMenu ? "fixed inset-0 w-full h-full" : "h-0 w-0"
+          } md:hidden z-20 overflow-hidden bg-white transition-all`}
+        >
+          <div className="flex items-center justify-between px-5 py-6">
+            <h1 className="w-36">DoctoDo</h1>
+            <img
+              className="w-7"
+              onClick={() => setShowMenu(false)}
+              src={assets.cross_icon}
+              alt=""
+            />
+          </div>
+          <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium">
+            <NavLink
+              className="px-4 py-2 rounded inline-block"
+              onClick={() => setShowMenu(false)}
+              to="/"
+            >
+              ACCUEIL
+            </NavLink>
+            <NavLink
+              className="px-4 py-2 rounded inline-block"
+              onClick={() => setShowMenu(false)}
+              to="/doctors"
+            >
+              MEDECINS
+            </NavLink>
+            <NavLink
+              className="px-4 py-2 rounded inline-block"
+              onClick={() => setShowMenu(false)}
+              to="/about"
+            >
+              A PROPOS
+            </NavLink>
+            <NavLink
+              className="px-4 py-2 rounded inline-block"
+              onClick={() => setShowMenu(false)}
+              to="/contact"
+            >
+              CONTACT
+            </NavLink>
+          </ul>
+        </div>
       </div>
     </div>
   );

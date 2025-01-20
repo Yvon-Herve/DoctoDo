@@ -32,9 +32,13 @@ const MyAppointments = () => {
               </p>
             </div>
             <div></div>
-            <div>
-              <button>Paiment </button>
-              <button>Annuler un rendez-vous</button>
+            <div className="flex flex-col gap-2 justify-end">
+              <button className="text-sm text-stone-500 text-center sm:min-w-48 py-2 border rounded hover:bg-primary hover:text-white transition-all duration-300">
+                Paiment{" "}
+              </button>
+              <button className="text-sm text-stone-500 text-center sm:min-w-48 py-2 border rounded  hover:bg-red-600 hover:text-white transition-all duration-300">
+                Annuler un rendez-vous
+              </button>
             </div>
           </div>
         ))}
